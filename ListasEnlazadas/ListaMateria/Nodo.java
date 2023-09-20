@@ -1,4 +1,4 @@
-package ListasEnlazadas;
+package ListaMateria;
 
 public class Nodo {
     Object valor;

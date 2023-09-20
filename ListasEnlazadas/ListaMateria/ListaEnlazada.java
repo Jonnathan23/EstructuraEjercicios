@@ -1,4 +1,4 @@
-package ListasEnlazadas;
+package ListaMateria;
 
 public class ListaEnlazada {
     private Nodo cabeza;
@@ -73,6 +73,8 @@ public class ListaEnlazada {
     public Nodo getCabeza() {
         return this.cabeza;
     }
+    
+    
     public Object getValor(int indice) {
         int contador = 0;
         Nodo temporal = cabeza;

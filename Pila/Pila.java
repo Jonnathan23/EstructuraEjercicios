@@ -14,11 +14,7 @@ public class Pila {
     }
 
     public boolean empty() {
-        if (posicion == 0) {
-            return true;
-        } else {
-            return false;
-        }
+        return posicion == 0;
     }
 
     public void push(String str) {
@@ -26,7 +22,6 @@ public class Pila {
             arreglo[posicion] = str;
             posicion++;
         }
-
     }
 
     public String peek() {
